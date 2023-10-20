@@ -1,0 +1,44 @@
+.rounded-icon {
+    margin: 20px;
+    border-radius: 50%; /* 丸い形状を適用 */
+    width: 100px; /* アイコン画像の幅を調整（お好みに応じて変更） */
+    height: 100px; /* アイコン画像の高さを調整（お好みに応じて変更） */
+  }
+
+.schoolhistory{
+  text-decoration:underline;
+}
+
+.lang{
+  margin-top: -20px;
+}
+
+.in{
+  text-decoration: underline;
+}
+
+.l{
+  text-decoration: underline;
+
+}
+
+.ex{
+  text-decoration: underline;
+}
+
+.aboutme ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sch{
+  margin-top: -20px;
+}
+
+.interest{
+  margin-top: -20px;
+}
+
+.experience{
+  margin-top: -20px;
+}

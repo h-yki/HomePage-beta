@@ -1,0 +1,170 @@
+/* ==== ヘッダーのスタイル ==== */
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.header .logo {
+  width: 20%;
+  height: 40px;
+  margin-left: 20px;
+  text-align: left;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo a:hover{
+  text-decoration: underline;
+}
+
+/* ==== ハンバーガーメニューのスタイル ==== */
+.mobile-menu {
+  display: none;
+  width: 30px;
+  height: 22px;
+  position: relative;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.line {
+  background-color: white;
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.line:nth-of-type(1) {
+  top: 0;
+}
+
+.line:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line:nth-of-type(3) {
+  bottom: 0;
+}
+
+.hamburger-menu.active > .line:nth-of-type(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.hamburger-menu.active > .line:nth-of-type(2) {
+  display: none;
+}
+
+.hamburger-menu.active > .line:nth-of-type(3) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+/* ==== ナビゲーションメニューのスタイル ==== */
+.pc-menu {
+  display: flex;
+  align-items: center; /* ナビメニューを縦方向中央揃え */
+}
+
+.pc-menu ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.pc-menu ul li {
+  width: 33%;
+  margin-right: 20px;
+}
+
+.pc-menu a {
+  color: white;
+  display: block;
+  width: 100%;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pc-menu a:hover{
+  text-decoration: underline;
+}
+
+/* ==== モバイルメニューのスタイル ==== */
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: #333;
+  opacity: 0.5;
+  z-index: 999;
+  position: fixed;
+  left: 50%; /* メニューをx軸方向の中央に配置 */
+  transform: translateX(-50%); /* x軸方向の中央配置 */
+  transform-origin: center top; /* 上部に配置 */
+  width: 100%;
+}
+
+.nav-menu.active {
+  display: flex;
+  animation: fadeIn 0.5s forwards;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    top: 20%;
+    opacity: 0;
+  }
+  
+  100% {
+    top: 50px;
+    opacity: 0.95;
+  }
+}
+
+/* メディアクエリ: 800px以下の場合 */
+@media (max-width: 800px) {
+  .pc-menu {
+    display: flex;
+  }
+  
+  .mobile-menu {
+    display: block;
+  }
+  
+  .mobile {
+    position: relative;
+  }
+  
+  .mobile .logo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+.links li{
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.links{
+    align-items: center;
+}
+
+.links ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Twi{
+    margin-top: -23px;
+}
+
+.Git{
+    margin-top: -23px;
+}
+
+.email{
+    margin-top: -23px;
+}
