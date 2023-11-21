@@ -7,3 +7,46 @@
 .container a:hover{
   text-decoration: underline;
 }
+
+.follow{
+  list-style:none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.follow li {
+  margin: 10px 20px;
+  padding: 0;
+}
+
+.follow li a::before {
+  background-color: #eee;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #333;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 55px; /* Button height */
+  line-height: 55px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 55px; /* Button width */
+}
+
+.follow li a:hover::before {
+  background-color: #333;
+  color: #fff;
+}
+
+.follow li
+a[href*="x.com"]::before
+{ content: "\f099"; }
+.follow li
+a[href*="github.com"]::before
+{ content: "\f09b"; }

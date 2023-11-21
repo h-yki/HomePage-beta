@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='aboutme'>
       <h2>About</h2>
-      <h3 className='schoolhistory'>学歴</h3>
+      <h3 className='schoolhistory'>所属</h3>
       <ul className='sch'>
         <li>筑波大学 情報学群 情報科学類 (2021.04~)</li>
         <li>茨城県立日立第一高等学校 (2018.04~2021.03)</li>
@@ -14,8 +14,7 @@ const About = () => {
       <h3 className='in'>興味</h3>
       <ul className='interest'>
         <li>コンピュータアーキテクチャ</li>
-        <li>ソフトウェア開発</li>
-        <li>人工知能を活用した自動運転技術</li>
+        <li>組み込みソフトウェア開発</li>
       </ul>
 
       <h3 className='l'>言語-熟練度順</h3>

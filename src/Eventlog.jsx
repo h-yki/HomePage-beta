@@ -6,25 +6,11 @@ const Eventlog = () => {
   return (
     <div>
       <h2>Eventlog</h2>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
-      <p>Developing...</p>
+      <p>hoge</p>
+      <ul>
+        <li>fuga</li>
+        <li>fuga2</li>
+      </ul>
     </div>
   );
 };
