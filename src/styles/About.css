@@ -6,33 +6,17 @@
   }
 
 .schoolhistory{
-  text-decoration:underline;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .lang{
   margin-top: -20px;
 }
 
-.in{
-  text-decoration: underline;
-}
-
-.l{
-  text-decoration: underline;
-
-}
-
-.ex{
-  text-decoration: underline;
-}
-
 .aboutme ul{
     list-style-type: none;
     padding-left: 0;
-}
-
-.sch{
-  margin-top: -20px;
 }
 
 .interest{

@@ -48,8 +48,8 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="/eventlog" style={{ color: 'white' }}>
-                  EventLog
+                <a href="/Blog" style={{ color: 'white' }}>
+                  Blog
                 </a>
               </li>
               <li>
@@ -69,8 +69,8 @@ const Header = () => {
           <a href="/about" className="menu-link" style={{ color: 'white' }}>
             About
           </a>
-          <a href="/eventlog" className="menu-link" style={{ color: 'white' }}>
-            EventLog
+          <a href="/Blog" className="menu-link" style={{ color: 'white' }}>
+            Blog
           </a>
           <a href="/contact" className="menu-link" style={{ color: 'white' }}>
             Contact

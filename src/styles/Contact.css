@@ -4,7 +4,7 @@
 }
 
 .links a:hover{
-    color: #ff9900;
+    color: skyblue;
     text-decoration: underline;
 }
 
@@ -21,16 +21,4 @@
 .links ul{
     list-style-type: none;
     padding-left: 0;
-}
-
-.Twi{
-    margin-top: -23px;
-}
-
-.Git{
-    margin-top: -23px;
-}
-
-.email{
-    margin-top: -23px;
 }
