@@ -1,8 +1,7 @@
 // Contact.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "./styles/Contact.css";
-import { TwitterOutlined, GithubOutlined } from '@ant-design/icons/lib/icons'
+import { TwitterOutlined, GithubOutlined, SpotifyOutlined } from '@ant-design/icons/lib/icons'
 import { Row, Button, Space } from 'antd';
 
 const Contact = () => {
@@ -25,10 +24,16 @@ const Contact = () => {
       <h4>Github</h4>
       <Row justify="center" align="middle">
         <div>
-          <Button key="h-yki" icon={<GithubOutlined />}>
-            <Link to="https://github.com/h-yki" target='_blank'>
-              h-yki
-            </Link>
+          <Button key="h-yki" icon={<GithubOutlined />} href='https://github.com/h-yki' target="_blank">
+            h-yki
+          </Button>
+        </div>
+      </Row>
+      <h4>Spotify</h4>
+      <Row justify="center" align="middle" style={{marginBottom:"30px"}}>
+        <div>
+          <Button key="yuumal" icon={<SpotifyOutlined />} href='https://open.spotify.com/user/19o09qc75t67fyv8ieqhl761b?si=cfJdmmf-RaGZIPaI2O8d5A' target="_blank">
+            yuumal
           </Button>
         </div>
       </Row>

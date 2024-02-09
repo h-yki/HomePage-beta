@@ -1,8 +1,8 @@
 .rounded-icon {
     margin: 20px;
     border-radius: 50%; /* 丸い形状を適用 */
-    width: 100px; /* アイコン画像の幅を調整（お好みに応じて変更） */
-    height: 100px; /* アイコン画像の高さを調整（お好みに応じて変更） */
+    width: 100px; /* アイコン画像の幅を調整 */
+    height: 100px; /* アイコン画像の高さを調整 */
   }
 
 .schoolhistory{
