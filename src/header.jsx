@@ -1,84 +1,114 @@
-import React, { useState, useEffect } from 'react';
-import './styles/header.css'; // CSSファイル名を変更
+import React, { useState } from 'react';
+import { Layout, Menu, Drawer, Button } from 'antd';
+import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 
-const Header = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
-  const [menuOpen, setMenuOpen] = useState(false);
+const { Header } = Layout;
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+const MainHeader = () => {
+  const [selectkey, setSelectkey] = useState(['0']);
+  const isMobile = useMediaQuery({ maxWidth: 800 });
+  const [visible, setVisible] = useState(false);
+
+  const handlekey = () => {
+    setSelectkey(['0']);
   };
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 800);
-      setMenuOpen(false);
-    };
+  const showDrawer = () => {
+    setVisible(true);
+  };
 
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const onClose = () => {
+    setVisible(false);
+  };
 
   return (
-    <div className={`container ${isMobile ? 'mobile' : 'desktop'}`}>
-      <div className="header">
-        <div className="logo">
-          <a href="/" style={{ color: 'white', textDecoration: 'none' }}>
-            yuumal.dev
-          </a>
-        </div>
-        {isMobile ? (
-          <div
-            className={`mobile-menu hamburger-menu ${menuOpen ? 'active' : ''}`}
-            onClick={toggleMenu}
+    <div>
+      {!isMobile ? (
+        <Layout>
+          <Header
+            style={{
+              display: 'flex',
+              position: "fixed",
+              top: 0,
+              zIndex: 1,
+              width: "100%",
+              height: '60px', // Height reduced
+              justifyContent: 'space-between',
+              alignItems: "center",
+              backgroundColor: '#001529',
+              padding: '0 20px' // Added padding for spacing
+            }}
           >
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
-        ) : (
-          <nav className={`pc-menu ${menuOpen ? 'active' : ''}`}>
-            <ul>
-              <li>
-                <a href="/about" style={{ color: 'white' }}>
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="/Eventlog" style={{ color: 'white' }}>
-                  Eventlog
-                </a>
-              </li>
-              <li>
-                <a href="/contact" style={{ color: 'white' }}>
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
-        )}
-      </div>
-      {isMobile && (
-        <nav className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-          <a href="/" className="menu-link" style={{ color: 'white' }}>
-            Home
-          </a>
-          <a href="/about" className="menu-link" style={{ color: 'white' }}>
-            About
-          </a>
-          <a href="/Eventlog" className="menu-link" style={{ color: 'white' }}>
-            Eventlog
-          </a>
-          <a href="/contact" className="menu-link" style={{ color: 'white' }}>
-            Contact
-          </a>
-        </nav>
+            <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }} onClick={handlekey}>yuumal.dev</Link>
+            </div>
+            <Menu
+              theme="dark"
+              mode="horizontal"
+              style={{ lineHeight: '60px', flex: 1, justifyContent: 'flex-end' }} // Adjusted to match header height and align items to the right
+              selectedKeys={selectkey}
+              onSelect={(item) => setSelectkey([item.key])}
+            >
+              <Menu.Item key="1">
+                <Link to="/About">About</Link>
+              </Menu.Item>
+              <Menu.Item key="2">
+                <Link to="/eventlog">EventLog</Link>
+              </Menu.Item>
+              <Menu.Item key="3">
+                <Link to="/contact">Contact</Link>
+              </Menu.Item>
+              <Menu.Item key="4">
+                <Link to="/Blog">Blog</Link>
+              </Menu.Item>
+            </Menu>
+          </Header>
+        </Layout>
+      ) : (
+        <Layout>
+          <Header
+            style={{
+              display: 'flex',
+              position: "fixed",
+              top: 0,
+              zIndex: 1,
+              width: "100%",
+              height: '60px', // Height reduced
+              justifyContent: 'space-between',
+              alignItems: "center",
+              backgroundColor: '#001529',
+              padding: '0 10px' // Added padding for spacing
+            }}
+          >
+            <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }}>yuumal.dev</Link>
+            </div>
+            <Button
+              icon={<MenuOutlined style={{ fontSize: '24px' }} />} // Increased font size
+              onClick={showDrawer}
+              style={{ color: 'white', backgroundColor: 'transparent', border: 'none', marginRight: '10px' }} // Adjusted margin for spacing
+            />
+            <Drawer
+              title={<span style={{ color: 'white' }}>yuumal.dev</span>} // Changed title color to white
+              placement='right'
+              onClose={onClose}
+              open={visible}
+              width='50%'
+              closeIcon={<CloseOutlined style={{ color: 'white' }} />} // Changed close icon color to white
+              style={{ backgroundColor: '#001529', color: 'white' }}
+            >
+              <p><Link to="/About" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>About</Link></p>
+              <p><Link to="/eventlog" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>EventLog</Link></p>
+              <p><Link to="/contact" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>Contact</Link></p>
+              <p><Link to="/Blog" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>Blog</Link></p>
+            </Drawer>
+          </Header>
+        </Layout>
       )}
     </div>
   );
 };
 
-export default Header;
+export default MainHeader;
