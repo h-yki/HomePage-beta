@@ -5,7 +5,7 @@ import { List, Divider, Typography } from 'antd';
 const { Text } = Typography;
 
 const syozoku = [
-  "エッジコンピューティング研究室 (2024.04~)",
+  "Edge Computing Lab (2024.04~)",
   "筑波大学 情報学群 情報科学類 (2021.04~)",
   "茨城県立日立第一高等学校 (2018.04~2021.03)",
 ];

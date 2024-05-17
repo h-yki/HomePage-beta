@@ -36,6 +36,10 @@ const data3 = [
 
 const data4 = [
   "2024-01-07 DIALOGUE+ LIVE 2024「LIFE is EASY?」@パシフィコ横浜国立大ホール",
+  "2024-03-30 DIALOGUE+ ログっ子感謝祭「ログ×ギグ」@府中の森芸術劇場どりーむホール",
+  "2024-03-30「DIALOGUE+BOX THE LIVE! vol.2」@府中の森芸術劇場どりーむホール",
+  "2024-05-07 SOVA Presents「APPLESEED」@恵比寿LIQUIDROOM",
+  "2024-05-12 DIALOGUE+ 5th Anniversary Tour「DIALOGUE+学概論」愛知公演 @Nittera日本特殊陶業市民会館フォレストホール",
 ];
 
 const Eventlog = () => {
