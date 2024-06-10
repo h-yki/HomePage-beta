@@ -1,6 +1,6 @@
 // Contact.js
 import React from 'react';
-import "./styles/Contact.css";
+import "../styles/Contact.css";
 import { TwitterOutlined, GithubOutlined, SpotifyOutlined } from '@ant-design/icons/lib/icons'
 import { Row, Button, Space } from 'antd';
 
@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='links'>
       <h2>Contact</h2>
-      <h4>Twitter</h4>
+      <h4>X (旧Twitter)</h4>
       <Row justify="center" align="middle">
         <div>
           <Space wrap>

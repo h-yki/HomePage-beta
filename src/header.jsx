@@ -34,11 +34,11 @@ const MainHeader = () => {
               top: 0,
               zIndex: 1,
               width: "100%",
-              height: '60px', // Height reduced
+              height: '60px',
               justifyContent: 'space-between',
               alignItems: "center",
-              backgroundColor: '#001529',
-              padding: '0 20px' // Added padding for spacing
+              backgroundColor:'#001529',
+              padding: '0 20px'
             }}
           >
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
@@ -47,7 +47,7 @@ const MainHeader = () => {
             <Menu
               theme="dark"
               mode="horizontal"
-              style={{ lineHeight: '60px', flex: 1, justifyContent: 'flex-end' }} // Adjusted to match header height and align items to the right
+              style={{ lineHeight: '60px', flex: 1, justifyContent: 'flex-end',}}
               selectedKeys={selectkey}
               onSelect={(item) => setSelectkey([item.key])}
             >
@@ -75,28 +75,28 @@ const MainHeader = () => {
               top: 0,
               zIndex: 1,
               width: "100%",
-              height: '60px', // Height reduced
+              height: '60px',
               justifyContent: 'space-between',
               alignItems: "center",
               backgroundColor: '#001529',
-              padding: '0 10px' // Added padding for spacing
+              padding: '0 10px'
             }}
           >
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
               <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }}>yuumal.dev</Link>
             </div>
             <Button
-              icon={<MenuOutlined style={{ fontSize: '24px' }} />} // Increased font size
+              icon={<MenuOutlined style={{ fontSize: '24px' }} />}
               onClick={showDrawer}
-              style={{ color: 'white', backgroundColor: 'transparent', border: 'none', marginRight: '10px' }} // Adjusted margin for spacing
+              style={{ color: 'white', backgroundColor: 'transparent', border: 'none', marginRight: '10px' }}
             />
             <Drawer
-              title={<span style={{ color: 'white' }}>yuumal.dev</span>} // Changed title color to white
+              title={<span style={{ color: 'white' }}>yuumal.dev</span>}
               placement='right'
               onClose={onClose}
               open={visible}
               width='50%'
-              closeIcon={<CloseOutlined style={{ color: 'white' }} />} // Changed close icon color to white
+              closeIcon={<CloseOutlined style={{ color: 'white' }} />}
               style={{ backgroundColor: '#001529', color: 'white' }}
             >
               <p><Link to="/About" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>About</Link></p>
