@@ -1,17 +1,18 @@
 import React from 'react';
-import "./styles/About.css";
+import "../styles/About.css";
 import { List, Divider, Typography } from 'antd';
 
 const { Text } = Typography;
 
 const syozoku = [
   "Edge Computing Lab (2024.04~)",
+  "ソフトウェアサイエンス主専攻 (2023.04~)",
   "筑波大学 情報学群 情報科学類 (2021.04~)",
-  "茨城県立日立第一高等学校 (2018.04~2021.03)",
 ];
 const interest = [
   "コンピュータアーキテクチャ",
-  "組み込みソフトウェア開発",
+  "ハードウェアロジック",
+  "組み込み開発",
   "女性声優",
 ];
 const lang = [
@@ -22,7 +23,13 @@ const lang = [
 const experience = [
   "アジャイル形式によるチーム開発",
   "Reactを用いたWebアプリ開発",
+  "基本的なGitの操作",
 ];
+const fav = [
+  "声優ユニットDIALOGUE+を推しています",
+  "DJ現場にもよく足を運びます",
+  "音楽を聴いて沢山動きます"
+]
 
 const About = () => {
   return (
@@ -64,6 +71,16 @@ const About = () => {
       size='large'
       bordered
       dataSource={experience}
+      renderItem={(item) => (
+        <List.Item>{item}</List.Item>
+      )}
+      style={{marginBottom:"30px", backgroundColor:"white"}}
+    />
+    <Divider orientation="left"><Text strong>その他</Text></Divider>
+    <List
+      size='large'
+      bordered
+      dataSource={fav}
       renderItem={(item) => (
         <List.Item>{item}</List.Item>
       )}
