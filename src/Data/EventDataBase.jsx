@@ -101,6 +101,11 @@ export const Events_2023 = [
       place: "昭和ふるさと村",
     },
     {
+      date: "2023-11-26",
+      performance: "DIALOGUE+ 1on1 お話会 守屋亨香",
+      place: "都内某所",
+    },
+    {
       date: "2023-12-10",
       performance: "DIALOGUE+新曲初披露ワンマン「フレンドファンファーレ~キイテカラミル~」",
       place: "群馬音楽センター",
