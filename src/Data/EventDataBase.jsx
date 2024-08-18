@@ -29,7 +29,7 @@ export const Events_2022 = [
     },
     {
       date: "2022-08-07",
-      performance: "Tokyo Idol Festival 2022",
+      performance: "TOKYO IDOL FESTIVAL 2022",
       place: "お台場青海エリア周辺",
     },
     {
@@ -147,5 +147,20 @@ export const Events_2024 = [
       date: "2024-06-23",
       performance: "DIALOGUE+ 5th Anniversary Tour「DIALOGUE+学概論」東京公演",
       place: "TokyoDomeCityHall",
+    },
+    {
+      date: "2024-07-06",
+      performance: "KINGLYMASK 1日店長イベント 守屋亨香",
+      place: "KINGLYMASK原宿本店",
+    },
+    {
+      date: "2024-07-14",
+      performance: "&武道館 ~Appare!×DIALOGUE+~",
+      place: "六本木EX THEATER",
+    },
+    {
+      date: "2024-08-04",
+      performance: "TOKYO IDOL FESTIVAL 2024",
+      place: "お台場青海エリア周辺",
     },
   ];
