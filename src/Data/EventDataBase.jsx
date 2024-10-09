@@ -163,4 +163,14 @@ export const Events_2024 = [
       performance: "TOKYO IDOL FESTIVAL 2024",
       place: "お台場青海エリア周辺",
     },
+    {
+      date: "2024-09-15",
+      performance: "DIALOGUE+3 新曲視聴会 第4部",
+      place: "Ponycanyon本社イベントスペース",
+    },
+    {
+      date: "2024-09-22",
+      performance: "ナガノアニエラフェスタ2024",
+      place: "長野県立駒場公園",
+    },
   ];
