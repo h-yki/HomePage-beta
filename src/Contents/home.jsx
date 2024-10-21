@@ -8,7 +8,7 @@ const Home = () => {
         <li><a href='https://x.com/yuh2253' target="_blank" rel="noreferrer"></a></li>
         <li><a href='https://github.com/h-yki' target="_blank" rel="noreferrer"></a></li>
       </ul>
-      <iframe 
+      {/* <iframe 
         style={{borderradius:"12px", border:"none"}} 
         title="SpotifyPlayList"
         src="https://open.spotify.com/embed/playlist/0i26ZQwuObgIREvRHHUKTk?utm_source=generator" 
@@ -16,7 +16,7 @@ const Home = () => {
         height="380" 
         allowfullscreen
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy" />   
+        loading="lazy" />    */}
     </div>
   );
 };

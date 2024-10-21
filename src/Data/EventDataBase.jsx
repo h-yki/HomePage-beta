@@ -173,4 +173,44 @@ export const Events_2024 = [
       performance: "ナガノアニエラフェスタ2024",
       place: "長野県立駒場公園",
     },
+    {
+      date: "2024-10-19",
+      performance: "DIALOGUE+3 発売記念ガラポン抽選会 第4部 守屋亨香",
+      place: "KFC Hall Annex",
+    },
+    {
+      date: "2024-10-27",
+      performance: "DIALOGUE+ LIVE HOUSE TOUR 2024「チャンバワンバjourney!!」仙台公演",
+      place: "SENDAI GIGS",
+    },
+    {
+      date: "2024-10-27",
+      performance: "アフタートーク「チャンバワンバafter!!」",
+      place: "SENDAI GIGS",
+    },
+    {
+      date: "2024-11-17",
+      performance: "DIALOGUE+ LIVE HOUSE TOUR 2024「チャンバワンバjourney!!」横浜公演",
+      place: "KT Zepp Yokohama",
+    },
+    {
+      date: "2024-11-17",
+      performance: "DIALOGUE+ バンドライブ「DIALOGUE+ BAND Assemble!!!!!!!!」",
+      place: "KT Zepp Yokohama",
+    },
+    {
+      date: "2024-11-29",
+      performance: "沢口かなみ主催イベント「それはそれでいいね」",
+      place: "山野ホール",
+    },
+    {
+      date: "2024-12-22",
+      performance: "DIALOGUE+Room Vol.4 ~仲キの冬休み~",
+      place: "LOFT9 Shibuya",
+    },
+    {
+      date: "2024-12-29",
+      performance: "DIALOGUE+ Live「DIALOGUE+3」",
+      place: "TokyoDomeCityHall",
+    },
   ];

@@ -29,19 +29,19 @@ const Eventlog = () => {
     <h2>Event Log</h2>
     <Divider orientation="center"><Text strong>これまでに行ったイベント</Text></Divider>
     <Divider orientation="left">2021</Divider>
-    <div className="2021">
+    <div className="2021" id='2021'>
       <Table columns={columns} dataSource={Events_2021} pagination={false} showHeader={false} />
     </div>
     <Divider orientation="left">2022</Divider>
-    <div className="2022">
+    <div className="2022" id='2022'>
       <Table columns={columns} dataSource={Events_2022} pagination={false} showHeader={false} />
     </div>
     <Divider orientation="left">2023</Divider>
-    <div className="2023">
+    <div className="2023" id='2023'>
       <Table columns={columns} dataSource={Events_2023} pagination={false} showHeader={false} />
     </div>
-    <Divider orientation="left">2024</Divider>
-    <div className="2024">
+    <div className="2024" id='2024'>
+      <Divider orientation="left">2024</Divider>
       <Table columns={columns} dataSource={Events_2024} pagination={false} showHeader={false} />
     </div>
     </>

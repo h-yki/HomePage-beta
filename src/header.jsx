@@ -30,7 +30,7 @@ const MainHeader = () => {
           <Header
             style={{
               display: 'flex',
-              position: "fixed",
+              //position: "fixed",
               top: 0,
               zIndex: 1,
               width: "100%",
@@ -71,7 +71,7 @@ const MainHeader = () => {
           <Header
             style={{
               display: 'flex',
-              position: "fixed",
+              //position: "fixed",
               top: 0,
               zIndex: 1,
               width: "100%",
