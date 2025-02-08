@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Divider, Table } from 'antd'; 
-import { Events_2021, Events_2022, Events_2023, Events_2024 } from '../Data/EventDataBase';
+import { Events_2021, Events_2022, Events_2023, Events_2024, Events_2025 } from '../Data/EventDataBase';
 import "../styles/Eventlog.css"
 
 const { Text } = Typography;
@@ -43,6 +43,10 @@ const Eventlog = () => {
     <div className="2024" id='2024'>
       <Divider orientation="left">2024</Divider>
       <Table columns={columns} dataSource={Events_2024} pagination={false} showHeader={false} />
+    </div>
+    <div className="2025" id='2025'>
+      <Divider orientation="left">2024</Divider>
+      <Table columns={columns} dataSource={Events_2025} pagination={false} showHeader={false} />
     </div>
     </>
   );

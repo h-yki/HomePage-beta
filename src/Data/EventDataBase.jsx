@@ -214,3 +214,21 @@ export const Events_2024 = [
       place: "TokyoDomeCityHall",
     },
   ];
+
+  export const Events_2025 = [
+    {
+      date: "2025-01-25",
+      performance: "守屋亨香1st写真集「きょんぷりーと!」発売記念サイン会",
+      place: "都内某所",
+    },
+    {
+      date: "2025-02-02",
+      performance: "DIALOGUE+3 Advance -TREASURE Mode-",
+      place: "大宮ソニックシティ 大ホール",
+    },
+    {
+      date: "2025-02-23",
+      performance: "DIALOGUE+3 Advance -CURTSEY Mode-",
+      place: "Nitera日本特殊陶業市民会館 フォレストホール",
+    },
+  ];
