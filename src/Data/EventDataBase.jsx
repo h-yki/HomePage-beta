@@ -231,4 +231,9 @@ export const Events_2024 = [
       performance: "DIALOGUE+3 Advance -CURTSEY Mode-",
       place: "Nitera日本特殊陶業市民会館 フォレストホール",
     },
+    {
+      date: "2025-03-09",
+      performance: "P's LIVE 08 ~P's GR∞VE~",
+      place: "LINE CUBE SHIBUYA",
+    },
   ];

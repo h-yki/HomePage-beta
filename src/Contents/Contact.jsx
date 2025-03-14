@@ -12,8 +12,8 @@ const Contact = () => {
       <Row justify="center" align="middle">
         <div>
           <Space wrap>
-          <Button key="yuh2253" icon={<XOutlined />} href="https://x.com/yuh2253" target="_blank">
-              @yuh2253(本垢)
+          <Button key="wv_hmd" icon={<XOutlined />} href="https://x.com/wv_hmd" target="_blank">
+              @wv_hmd(本垢)
           </Button>
           <Button key="mald_y" icon={<XOutlined />} href="https://x.com/mald_y" target="_blank">
               @mald_y(趣味垢)

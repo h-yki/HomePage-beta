@@ -42,7 +42,7 @@ const MainHeader = () => {
             }}
           >
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }} onClick={handlekey}>yuumal.dev</Link>
+              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }} onClick={handlekey}>yuumal-page</Link>
             </div>
             <Menu
               theme="dark"
@@ -83,7 +83,7 @@ const MainHeader = () => {
             }}
           >
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }}>yuumal.dev</Link>
+              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }}>yuumal-page</Link>
             </div>
             <Button
               icon={<MenuOutlined style={{ fontSize: '24px' }} />}

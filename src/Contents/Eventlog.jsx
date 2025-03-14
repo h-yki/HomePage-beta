@@ -45,7 +45,7 @@ const Eventlog = () => {
       <Table columns={columns} dataSource={Events_2024} pagination={false} showHeader={false} />
     </div>
     <div className="2025" id='2025'>
-      <Divider orientation="left">2024</Divider>
+      <Divider orientation="left">2025</Divider>
       <Table columns={columns} dataSource={Events_2025} pagination={false} showHeader={false} />
     </div>
     </>
