@@ -7,6 +7,7 @@ import Eventlog from './Contents/Eventlog';
 import Contact from './Contents/Contact';
 import Home from './Contents/home';
 import Blog from './Contents/Blog';
+import Works from './Contents/Works';
 import NotFound from './Contents/Notfound';
 import './styles/App.css';
 import iconImage from "./Data/profileicon.png"
@@ -26,6 +27,7 @@ function App() {
               <Route path="/Eventlog" element={<Eventlog />}/>
               <Route path="/Contact" element={<Contact />}/>
               <Route path='/Blog' element={<Blog />}/>
+              <Route path='/Works' element={<Works />}/>
               <Route path='*' element={<NotFound />} />
           </Routes>
         </main>

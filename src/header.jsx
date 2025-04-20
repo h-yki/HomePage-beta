@@ -58,10 +58,13 @@ const MainHeader = () => {
                 <Link to="/eventlog">EventLog</Link>
               </Menu.Item>
               <Menu.Item key="3">
-                <Link to="/contact">Contact</Link>
+                <Link to="/Works">Works</Link>
               </Menu.Item>
               <Menu.Item key="4">
                 <Link to="/Blog">Blog</Link>
+              </Menu.Item>
+              <Menu.Item key="5">
+                <Link to="/contact">Contact</Link>
               </Menu.Item>
             </Menu>
           </Header>
@@ -101,6 +104,7 @@ const MainHeader = () => {
             >
               <p><Link to="/About" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>About</Link></p>
               <p><Link to="/eventlog" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>EventLog</Link></p>
+              <p><Link to="/Works" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>Works</Link></p>
               <p><Link to="/contact" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>Contact</Link></p>
               <p><Link to="/Blog" onClick={onClose} style={{ color: 'white', fontSize: '20px' }}>Blog</Link></p>
             </Drawer>
