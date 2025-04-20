@@ -236,4 +236,14 @@ export const Events_2024 = [
       performance: "P's LIVE 08 ~P's GR∞VE~",
       place: "LINE CUBE SHIBUYA",
     },
+    {
+      date: "2025-03-30",
+      performance: "DIALOGUE＋WITH vol.2 KEBABS",
+      place: "和光市民文化センター サンアゼリア 大ホール",
+    },
+    {
+      date: "2025-03-30",
+      performance: "DIALOGUE+BOX THE LIVE! vol.3",
+      place: "和光市民文化センター サンアゼリア 大ホール",
+    },
   ];
