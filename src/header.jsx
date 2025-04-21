@@ -42,7 +42,7 @@ const MainHeader = () => {
             }}
           >
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }} onClick={handlekey}>yuumal-page</Link>
+              <Link to='/' style={{ color: 'white', textDecoration: 'none', fontSize: "18px", fontWeight: 'bold' }} onClick={handlekey}>h-yki.com</Link>
             </div>
             <Menu
               theme="dark"
@@ -94,7 +94,7 @@ const MainHeader = () => {
               style={{ color: 'white', backgroundColor: 'transparent', border: 'none', marginRight: '10px' }}
             />
             <Drawer
-              title={<span style={{ color: 'white' }}>yuumal.dev</span>}
+              title={<span style={{ color: 'white' }}>h-yki.com</span>}
               placement='right'
               onClose={onClose}
               open={visible}
