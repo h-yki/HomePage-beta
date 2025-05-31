@@ -246,4 +246,44 @@ export const Events_2024 = [
       performance: "DIALOGUE+BOX THE LIVE! vol.3",
       place: "和光市民文化センター サンアゼリア 大ホール",
     },
+    {
+      date: "2025-05-11",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」東京公演",
+      place: "Spotify O-EAST",
+    },
+    {
+      date: "2025-05-11",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」東京公演 アフタートーク",
+      place: "Spotify O-EAST",
+    },
+    {
+      date: "2025-06-07",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」福岡公演",
+      place: "DRUM LOGOS",
+    },
+    {
+      date: "2025-06-07",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」福岡公演 アフタートーク",
+      place: "DRUM LOGOS",
+    },
+    {
+      date: "2025-06-08",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」岡山公演",
+      place: "CRAZYMAMA KINGDOM",
+    },
+    {
+      date: "2025-06-08",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」岡山公演 アフタートーク",
+      place: "CRAZYMAMA KINGDOM",
+    },
+    {
+      date: "2025-06-15",
+      performance: "DIALOGUE+ Live house Tour「カクノゴトキロックンロール！」横浜公演",
+      place: "KT Zepp Yokohama",
+    },
+    {
+      date: "2025-06-15",
+      performance: "DIALOGUE＋WITH special edition「DIALOGUE＋Re:ステージ！JAM!!」",
+      place: "KT Zepp Yokohama",
+    },
   ];
