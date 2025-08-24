@@ -286,4 +286,19 @@ export const Events_2024 = [
       performance: "DIALOGUE＋WITH special edition「DIALOGUE＋Re:ステージ！JAM!!」",
       place: "KT Zepp Yokohama",
     },
+    {
+      date: "2025-07-13",
+      performance: "LIVE「DIALOGUE＋3」Blu-rayジャケットサイン会 守屋亨香",
+      place: "都内某所",
+    },
+    {
+      date: "2025-08-03",
+      performance: "TOKYO IDOL FESTIVAL 2025",
+      place: "お台場青海エリア周辺",
+    },
+    {
+      date: "2025-08-17",
+      performance: "テレビ朝日・六本木ヒルズ SUMMER FES「DIALOGUE+ × May'n」",
+      place: "六本木ヒルズアリーナ",
+    }
   ];

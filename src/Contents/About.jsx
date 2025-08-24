@@ -16,8 +16,9 @@ const interest = [
   "女性声優",
 ];
 const resarch = [
-  "ストリームデータロスレス圧縮に関する研究",
-  "画像の特徴抽出とロッシー圧縮に関する研究"
+  "ストリームデータロスレス圧縮アルゴリズムに関連する研究",
+  "画像データのCNNを用いた高効率圧縮に関する研究",
+  "FPGAを用いたハードウェア実装",
 ];
 const lang = [
   "日本語",
@@ -35,7 +36,12 @@ const experience = [
   "「EdgeTech+ WEST 2024 @グランフロント大阪」出展",
   "「EdgeTech+ 2024 @パシフィコ横浜展示ホール」出展",
   "他大学との共同研究/共同開発",
+  "「EdgeTech+ WEST 2025 @グランフロント大阪」出展",
 ];
+const qualification = [
+  "学士（情報科学）",
+  "普通自動車第一種運転免許",
+]
 const fav = [
   "声優ユニットDIALOGUE+を推しています",
   "DJ現場にもよく足を運びます",
@@ -92,6 +98,16 @@ const About = () => {
       size='large'
       bordered
       dataSource={lang}
+      renderItem={(item) => (
+        <List.Item>{item}</List.Item>
+      )}
+      style={{marginBottom:"30px", backgroundColor:"white"}}
+    />
+    <Divider orientation="left"><Text strong>Qualification</Text></Divider>
+    <List
+      size='large'
+      bordered
+      dataSource={qualification}
       renderItem={(item) => (
         <List.Item>{item}</List.Item>
       )}
