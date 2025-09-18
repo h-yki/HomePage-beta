@@ -32,23 +32,23 @@ const Eventlog = () => {
     <h2>Event Log</h2>
     <Divider orientation="center"><Text strong>これまでに行ったイベント</Text></Divider>
     <div className="2025" id='2025'>
-      <Divider orientation="left">2025</Divider>
+      <Divider orientation="left">2025年 ({Events_2025.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2025} pagination={false} showHeader={false} />
     </div>
     <div className="2024" id='2024'>
-      <Divider orientation="left">2024</Divider>
+      <Divider orientation="left">2024年 ({Events_2024.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2024} pagination={false} showHeader={false} />
     </div>
     <div className="2023" id='2023'>
-      <Divider orientation="left">2023</Divider>
+      <Divider orientation="left">2023年 ({Events_2023.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2023} pagination={false} showHeader={false} />
     </div>
     <div className="2022" id='2022'>
-      <Divider orientation="left">2022</Divider>
+      <Divider orientation="left">2022年 ({Events_2022.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2022} pagination={false} showHeader={false} />
     </div>
     <div className="2021" id='2021'>
-      <Divider orientation="left">2021</Divider>
+      <Divider orientation="left">2021年 ({Events_2021.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2021} pagination={false} showHeader={false} />
     </div>
     </>

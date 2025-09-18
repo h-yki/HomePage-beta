@@ -300,5 +300,15 @@ export const Events_2024 = [
       date: "2025-08-17",
       performance: "テレビ朝日・六本木ヒルズ SUMMER FES「DIALOGUE+ × May'n」",
       place: "六本木ヒルズアリーナ",
+    },
+    {
+      date: "2025-09-14",
+      performance: "DIALOGUE＋新曲発表朗読公演「DIALOGUE＋THE MOVIE」",
+      place: "JCOMホール八王子",
+    },
+    {
+      date: "2025-09-14",
+      performance: "DIALOGUE＋ 新曲発表生バンドライブ「PENTA+LOGUE Prelude」",
+      place: "JCOMホール八王子",
     }
   ];

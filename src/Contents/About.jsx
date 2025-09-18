@@ -37,6 +37,7 @@ const experience = [
   "「EdgeTech+ 2024 @パシフィコ横浜展示ホール」出展",
   "他大学との共同研究/共同開発",
   "「EdgeTech+ WEST 2025 @グランフロント大阪」出展",
+  "ソフトバンク株式会社 Job-Match Internship 参加 (2025/09/01~2025/09/12)",
 ];
 const qualification = [
   "学士（情報科学）",
