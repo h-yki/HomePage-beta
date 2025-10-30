@@ -4,6 +4,9 @@
         "plaintext": true,
         "markdown": false,
         "scminput": false,
+        "latex": true,
+        "shellscript": true,
+        "cpp": false,
         "javascriptreact": true
     }
 }

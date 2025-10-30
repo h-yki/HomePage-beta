@@ -12,11 +12,11 @@ const Contact = () => {
       <Row justify="center" align="middle">
         <div>
           <Space wrap>
-          <Button key="wv_hmd" icon={<XOutlined />} href="https://x.com/wv_hmd" target="_blank">
+          {/* <Button key="wv_hmd" icon={<XOutlined />} href="https://x.com/wv_hmd" target="_blank">
               @wv_hmd(本垢)
-          </Button>
+          </Button> */}
           <Button key="mald_y" icon={<XOutlined />} href="https://x.com/mald_y" target="_blank">
-              @mald_y(趣味垢)
+              @mald_y(趣味メイン)
           </Button>
           </Space>
         </div>

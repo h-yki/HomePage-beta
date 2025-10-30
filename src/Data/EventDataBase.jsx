@@ -238,7 +238,7 @@ export const Events_2024 = [
     },
     {
       date: "2025-03-30",
-      performance: "DIALOGUE＋WITH vol.2 KEBABS",
+      performance: "DIALOGUE＋WITH vol.2 THE KEBABS",
       place: "和光市民文化センター サンアゼリア 大ホール",
     },
     {
@@ -310,5 +310,20 @@ export const Events_2024 = [
       date: "2025-09-14",
       performance: "DIALOGUE＋ 新曲発表生バンドライブ「PENTA+LOGUE Prelude」",
       place: "JCOMホール八王子",
-    }
+    },
+    {
+      date: "2025-10-14",
+      performance: "#DSPM LIVE EXTRA「CYNHN & DIALOGUE＋」",
+      place: "恵比寿 LIQUIDROOM",
+    },
+    {
+      date: "2025-10-26",
+      performance: "DIALOGUE＋WITH vol.4 清竜人25",
+      place: "1000CLUB",
+    },
+    {
+      date: "2025-10-26",
+      performance: "Welcome to D＋ vol.2",
+      place: "1000CLUB",
+    },
   ];
