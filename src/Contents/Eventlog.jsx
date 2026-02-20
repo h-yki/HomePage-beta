@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Divider, Table } from 'antd'; 
-import { Events_2021, Events_2022, Events_2023, Events_2024, Events_2025 } from '../Data/EventDataBase';
+import { Events_2021, Events_2022, Events_2023, Events_2024, Events_2025, Events_2026 } from '../Data/EventDataBase';
 import "../styles/Eventlog.css"
 
 const { Text } = Typography;
@@ -31,6 +31,10 @@ const Eventlog = () => {
     <>
     <h2>Event Log</h2>
     <Divider orientation="center"><Text strong>これまでに行ったイベント</Text></Divider>
+    <div className="2026" id='2026'>
+      <Divider orientation="left">2026年 ({Events_2026.length}現場)</Divider>
+      <Table columns={columns} dataSource={Events_2026} pagination={false} showHeader={false} />
+    </div>
     <div className="2025" id='2025'>
       <Divider orientation="left">2025年 ({Events_2025.length}現場)</Divider>
       <Table columns={columns} dataSource={Events_2025} pagination={false} showHeader={false} />

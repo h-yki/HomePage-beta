@@ -326,4 +326,52 @@ export const Events_2024 = [
       performance: "Welcome to D＋ vol.2",
       place: "1000CLUB",
     },
+    {
+      date: "2025-11-09",
+      performance: "PENTA+LOGUE発売記念フリーライブ&特典会",
+      place: "ららぽーと豊洲"
+    },
+    {
+      date: "2025-11-29",
+      performance: "DIALOGUE＋WITH vol.5 大橋彩香",
+      place: "恵比寿ガーデンホール"
+    },
+    {
+      date: "2025-11-29",
+      performance: "Welcome to D＋ vol.3",
+      place: "恵比寿ガーデンホール",
+    },
+    {
+      date: "2025-12-13",
+      performance: "DIALOGUE+ROOM vol.8 -守屋亨香 8 colors-",
+      place: "LOFT PLUS ONE"
+    },
   ];
+
+  export const Events_2026 = [
+    {
+      date: "2026-01-18",
+      performance: "DIALOGUE＋WITH vol.6 夏川椎菜",
+      place: "恵比寿リキッドルーム"
+    },
+    {
+      date: "2026-01-18",
+      performance: "DIALOGUE＋WHITE BOX THE LIVE! vol.3",
+      place: "恵比寿リキッドルーム"
+    },
+    {
+      date: "2026-01-25",
+      performance: "DIALOGUE＋WITH vol.7 岡咲美保",
+      place: "恵比寿リキッドルーム"
+    },
+    {
+      date: "2026-01-25",
+      performance: "DIALOGUE＋BOX THE LIVE! vol.4",
+      place: "恵比寿リキッドルーム"
+    },
+    {
+      date: "2026-02-01",
+      performance: "Super Sonic Loguenizer 発売記念 1on1 お話会",
+      place: "東新宿 快・決いい会議室"
+    },
+  ]

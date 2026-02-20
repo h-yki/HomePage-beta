@@ -11,14 +11,13 @@ const syozoku = [
 ];
 const interest = [
   "コンピュータアーキテクチャ",
-  "データ通信,伝送/放送",
-  "組み込み開発",
+  "データ通信,伝送",
   "女性声優",
 ];
 const resarch = [
   "ストリームデータロスレス圧縮アルゴリズムに関連する研究",
-  "画像データのCNNを用いた高効率圧縮に関する研究",
-  "FPGAを用いたハードウェア実装",
+  "画像/映像データのCNNを用いた高効率圧縮に関する研究",
+  "GPUを用いた並列計算による圧縮の高速化に関する研究",
 ];
 const lang = [
   "日本語",
@@ -27,7 +26,7 @@ const lang = [
   "Python"
 ];
 const experience = [
-  "筑波大学 enPiT2 参加 (2023年度)",
+  "筑波大学 enPiT2 参加 (2023年度, 2025年度)",
   "アジャイル形式によるチーム開発",
   "Reactを用いたWebアプリ開発",
   "基本的なGitの操作",
@@ -35,10 +34,18 @@ const experience = [
   "Arduinoを用いた小規模な組み込み開発",
   "「EdgeTech+ WEST 2024 @グランフロント大阪」出展",
   "「EdgeTech+ 2024 @パシフィコ横浜展示ホール」出展",
-  "他大学との共同研究/共同開発",
+  "国内共同研究/共同開発",
+  "海外大学との共同研究",
   "「EdgeTech+ WEST 2025 @グランフロント大阪」出展",
-  "ソフトバンク株式会社 Job-Match Internship 参加 (2025/09/01~2025/09/12)",
+  "「EdgeTech+ 2025 @パシフィコ横浜展示ホール」出展",
+  "BDXCS@HPCAsia2026 論文発表",
 ];
+const pepar = [
+  {
+    title: "Parallelising Stream-based Lossless Data Compression on GPUs and CPUs",
+    url: "https://dl.acm.org/doi/10.1145/3784828.3784829"
+  }
+]
 const qualification = [
   "学士（情報科学）",
   "普通自動車第一種運転免許",
@@ -71,6 +78,23 @@ const About = () => {
       dataSource={interest}
       renderItem={(item) => (
         <List.Item>{item}</List.Item>
+      )}
+      style={{marginBottom:"30px", backgroundColor:"white"}}
+    />
+    <Divider orientation="left"><Text strong>Pepar</Text></Divider>
+    <List
+      size='large'
+      bordered
+      dataSource={pepar}
+      renderItem={(item) => (
+        <List.Item>
+          <a 
+            href={item.url} 
+            target="_blank" 
+            rel="noopener noreferrer">
+            {item.title}
+          </a>
+        </List.Item>
       )}
       style={{marginBottom:"30px", backgroundColor:"white"}}
     />
